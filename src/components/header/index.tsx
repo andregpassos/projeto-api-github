@@ -5,10 +5,10 @@ function Header() {
     <header className={styles.headerContainer}>
       <h1 className={styles.nameProfile}>Your Name</h1>
       <div className={styles.linksHeader}>
-        <a className={styles.linkHdr} target="blank" href="/">
+        <a className={styles.linkHdr} href="/">
           Home
         </a>
-        <a className={styles.linkHdr} href="/">
+        <a className={styles.linkHdr} href="/repos">
           Repositories
         </a>
       </div>
