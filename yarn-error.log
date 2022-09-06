@@ -1,0 +1,48 @@
+Arguments: 
+  /home/andregpassos/.config/nvm/versions/node/v18.7.0/bin/node /home/andregpassos/.config/nvm/versions/node/v18.7.0/bin/yarn
+
+PATH: 
+  /home/andregpassos/android-studio/bin:/home/andregpassos/android-studio/bin:/home/andregpassos/.config/nvm/versions/node/v18.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/home/andregpassos/Android/Sdk/emulator:/home/andregpassos/Android/Sdk/platform-tools:/home/andregpassos/Android/Sdk/emulator:/home/andregpassos/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND atf.intranet.bb.com.br
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26)
+
+npm manifest: 
+  {
+    "name": "projeto-api-github",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.17",
+      "@types/react-dom": "^18.0.6",
+      "@vitejs/plugin-react": "^2.1.0",
+      "typescript": "^4.6.4",
+      "vite": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

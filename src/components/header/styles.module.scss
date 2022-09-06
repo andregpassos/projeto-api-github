@@ -1,0 +1,28 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #dfe6ed;
+  border: 2px solid #aaa;
+}
+
+.nameProfile {
+  text-align: left;
+}
+
+.linksHeader {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.linkHdr {
+  color: #555;
+}
+
+.linkHdr:hover,
+.linkHdr:focus {
+  color: black;
+}
